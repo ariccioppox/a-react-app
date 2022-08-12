@@ -1,0 +1,72 @@
+.containerApp {
+  height: 100%;
+}
+
+.App {
+  font-size: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: url('./imgs/bg.jpeg');
+  background-size: cover;
+  background-color: #8843F2;
+}
+
+html, body {
+  height: 100vw;
+}
+
+body {
+  min-height: 100%;
+  padding: 2em;
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #FDF6EC;
+}
+
+#root {
+  height: 100%;
+}
+
+ul {
+  line-height: 1.5em;
+}
+
+.App span {
+  font-size: 3em;
+}
+
+.professional, .also  {
+  width: fit-content;
+  padding: 1em 2em;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+  box-shadow: 10px 10px 0px 0px rgb(229 212 212 / 59%);
+  background-color: #595958a1;
+}
+
+code {
+  color: #EF2F88;
+  background: rgb(43 42 42);
+  padding: 0.25em 0.5em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.3em;
+  font-size: 0.8em;
+}
