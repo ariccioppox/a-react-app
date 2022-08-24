@@ -1,7 +1,8 @@
 import './index.scss';
 
 export default function() {
-  return <div className="also">
+  return (
+    <div className="also">
       <p>With this app, I'm showing that I also can:</p>
       <ul>
         <li>Create a <code>React</code> app</li>
@@ -11,4 +12,5 @@ export default function() {
         <li>Host a <code>React</code> app on GitHub Pages</li>
       </ul>
     </div>
+  )
 }

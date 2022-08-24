@@ -1,4 +1,5 @@
 import './App.scss';
+import Navbar from './components/Navbar'
 import Also from './components/Also';
 import Fireflies from './components/Fireflies';
 import Professional from './components/Professional';
@@ -8,9 +9,12 @@ function App() {
   return (
     <div className='containerApp'>
       <div className="App">
-        <Title />
-        <Professional />
-        <Also />
+        <Navbar />
+        <div className='main'>
+          <Title />
+          <Professional />
+          <Also />
+        </div>
       </div>
       <Fireflies />
     </div>

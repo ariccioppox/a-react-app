@@ -1,0 +1,34 @@
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EF2F88;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: rgb(43 42 42);
+    font-family: monospace;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 6px 7px 0px 0px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 6px 7px 0px 0px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 6px 7px 0px 0px rgba(255, 255, 255, 0.5);
+}

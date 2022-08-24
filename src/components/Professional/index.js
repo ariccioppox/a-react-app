@@ -1,7 +1,8 @@
 import './index.scss';
 
 export default function() {
-    return <div className="professional">
+    return (
+    <div className="professional">
         <p>From my professional experiences I can:</p>
         <ul>
           <li>Create web pages from scratch</li>
@@ -16,4 +17,5 @@ export default function() {
           <li>Definitely know how important it is to have readable, testable code</li>
         </ul>
       </div>
+    )
 }
